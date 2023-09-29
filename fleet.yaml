@@ -17,7 +17,7 @@ helm:
   # The version of the chart or semver constraint of the chart to find. If a constraint
   # is specified it is evaluated each time git changes.
   # The version also determines which chart to download from OCI registries.
-  version: 1.2.2
+  # version: 1.2.2
 
   valuesFiles:
     - values.yaml

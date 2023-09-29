@@ -20,9 +20,6 @@ server:
       memory: '100Mi'
 
   # If using Enterprise, reference the Kubernetes secret that holds your license here
-  enterpriseLicense:
-    secretName: 'consul-license'
-    secretKey: 'key'
 # Configure Consul clients in this section
 client:
   # Specify the resources that clients request for deployment.
