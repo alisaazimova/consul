@@ -1,5 +1,5 @@
 
-# defaultNamespace: default
+defaultNamespace: default
 helm:
   ### These options control how "fleet apply" downloads the chart
   #
@@ -18,5 +18,5 @@ helm:
   # The version also determines which chart to download from OCI registries.
   # version: 1.2.2
 
-  valuesFiles:
-    - values.yaml
+  # valuesFiles:
+  #   - values.yaml
