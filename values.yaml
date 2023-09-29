@@ -18,6 +18,7 @@ server:
       cpu: '100Mi'
     limits:
       memory: '100Mi'
+      cpu: '100Mi'
 
   # If using Enterprise, reference the Kubernetes secret that holds your license here
 # Configure Consul clients in this section
@@ -29,6 +30,7 @@ client:
       cpu: '100Mi'
     limits:
       memory: '100Mi'
+      cpu: '100Mi'
 # Enable and configure the Consul UI.
 ui:
   enabled: true
