@@ -12,7 +12,7 @@ helm:
   # A https URL to a Helm repo to download the chart from. It's typically easier
   # to just use `chart` field and refer to a tgz file.  If repo is used the
   # value of `chart` will be used as the chart name to lookup in the Helm repository.
-  repo: helm repo add hashicorp https://helm.releases.hashicorp.com
+  repo: https://helm.releases.hashicorp.com
   # The version of the chart or semver constraint of the chart to find. If a constraint
   # is specified it is evaluated each time git changes.
   # The version also determines which chart to download from OCI registries.
