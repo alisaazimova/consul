@@ -1,5 +1,4 @@
 
-namespace: default
 defaultNamespace: default
 helm:
   ### These options control how "fleet apply" downloads the chart
